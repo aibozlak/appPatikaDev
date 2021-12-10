@@ -1,2 +1,2 @@
-# appPatikaDev
-app.patika.dev çalışma klasörüm
+# Ön Bilgi: 
+app.patika.dev platformundan aldığım eğitim için oluşurduğum çalışma klasörüm.
