@@ -14,7 +14,11 @@ Proje-1:
 5- [2,6,16,18,22,27]
 
 
-2) Big-O Gösterimi: n elemanlı bir dizi için (n-1) adımda çözeceği için big notation: O(n)
+2) Big-O Gösterimi: n elemanlı bir dizide:
+İlk indise eleman yerleştirebilmek için n-1 adım +
+İkinci indis için n-2 adım + 
+Üçüncü indis için n-3 adım + ...... + 1 adım
+= (n-1) + (n-2) + ...... +1 = (n-1)*(n)/2 = 0.5*(n^2 -n)  ----> Baskın değişken n^2 olduğundan Big-O notation: O(n^2).
 
 3) Average Case, Worst Case ve Best Case tanımları.
 
