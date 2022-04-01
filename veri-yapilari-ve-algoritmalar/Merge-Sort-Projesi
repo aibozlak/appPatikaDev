@@ -1,0 +1,26 @@
+
+Proje 2:
+
+[16,21,11,8,12,22] -> Merge Sort (6 elemanlı)
+
+1) Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+
+1. Adım:  [16,21,11] ve [8,12,22]   -----> Birinci Parçalama sonucu
+2. Adım: ([16] - [21,11]) - ([8,12] - [22])  -----> İkinci parçalama sonucu
+3. Adım: ([16] - [11,21]) - ([8,12] - [22])  -----> Dizi parçaları kendi arasında sıralandı.
+4. Adım: [11] - [8] ---> En soldaki elemanlar karşılaştırıldı ve küçük olanlar eklendi.  Kalanlar: ([16] - [21]) ve ([12] - [22])
+5. Adım: [11,16,21] - [8,12,22]   ----> Kalanlar karşılaştırıldı küçük olan eklendi. Geriye 1 eleman kaldığı için o da eklendi.
+6. Adım: [8]    -----> İki dizideki ([11,16,21] - [8,12,22]) en soldaki elemanlar karşılaştırıldı. Küçük eleman seçildi. Kalanlar: [11,16,21] - [12,22]
+7. Adım: [8, 11]  ----> Kalan iki dizideki ([11,16,21] - [12,22]) soldaki elamnlar karşılaştırıldı. Küçük elamn seçildi. Kalanlar: [16,21] - [12,22]
+8. Adım: [8, 11, 12]   ----> Kalanlar: [16,21] - [22]
+9. Adım: [8, 11, 12, 16]  ----> Kalanlar: [21] - [22]
+10. Adım: [8, 11, 12, 16, 21, 22]  ---> Son kalan 1'er elemanlı diziler karşılaştırıldı ve Verilen dizi sıranmış oldu.
+
+
+2) Big-O gösterimini yazınız.
+
+n elemanlı bir dizide elemanlar x adımla 1 er elamanlı dizilere parçalanmış olsun. 
+=> 2^x = n 
+=> x = log2(n)
+
+Big-O gösterimi :  O(log(n))
