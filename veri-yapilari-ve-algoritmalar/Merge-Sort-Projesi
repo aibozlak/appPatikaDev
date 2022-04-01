@@ -5,17 +5,12 @@ Proje 2:
 
 1) Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
 
-1. Adım:                  [16,21,11]      -        [8,12,22]   
-2. Adım:              [16] - [21,11]      -        [8,12] - [22]
-3. Adım:        [16] - ([21] - [11])      -        ([8] - [12]) -  [22]
-4. Adım:             [16] - [11, 21]      -        [8, 12]  -  [22]            -----> Birleştirme yapılırken küçük olan olan sola yazıldı.
-5. Adım:    [11] ([16] - [21] kaldı)      -        [8]  ([12] - [22] kaldı)    -----> Soldaki elemanlar karşılaştırıldı küçük olanlar seçildi.
-6. Adım:                [11, 16, 21]      -        [8, 12, 22]
-7. Adım:                                 [8]  ([11,16,21] - [12,22] kaldı)     -----> Soldaki elemanlar karşılaştırıldı küçük olan seçildi.
-8. Adım:                               [8, 11]  ([16,21] - [12,22] kaldı)      -----> Soldaki elemanlar karşılaştırıldı küçük olan seçildi.
-9. Adım:                             [8, 11, 12]   ([16,21] - [22] kaldı)      -----> Soldaki elemanlar karşılaştırıldı küçük olan seçildi.
-10. Adım:                          [8, 11, 12, 16]   ([21] - [22] kaldı) 
-11. Adım:                      [8, 11, 12, 16, 21, 22]                         -----> Kalan son iki eleman karşılaştırıldı. Dizi sıralandı.
+1. Adım:                  [16,21,11]  -  [8,12,22]   
+2. Adım:              [16] - [21,11]  -  [8,12] - [22]
+3. Adım:        [16] - ([21] - [11])  -  ([8] - [12]) -  [22]
+4. Adım:             [16] - [11, 21]  -  [8, 12]  -  [22]            -----> Birleştirme yapılırken küçük olan olan sola yazıldı.
+6. Adım:                [11, 16, 21]  -  [8, 12, 22]
+7. Adım:                   [8, 11, 12, 16, 21, 22]
  
 
 
