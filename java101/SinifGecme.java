@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// app.patika.dev/aibozlak
+
 public class SinifGecme {
  public static void main(String[] arguments){
 
@@ -39,5 +41,3 @@ if ((mat >= 0 && mat <= 100) && (fizik >= 0 && fizik <= 100) && (kimya >= 0 && k
 
  }
 }
-
-// Dersler: Matematik, Fizik, Kimya, Türkçe, Tarih, Müzik 
