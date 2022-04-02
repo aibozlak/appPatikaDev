@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 // @author: app.patika.dev/aibozlak
 
+// Not: Videodaki koşullar kabul edildi. Ödev kısmına koşullar yanlış yazılmış sanırım. 
+//      Koşullarda çakışma yok çünkü.
+
 public class EtkinlikOnerme {
  public static void main(String[] arguments){
 
