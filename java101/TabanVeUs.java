@@ -9,14 +9,14 @@ public class TabanVeUs {
 
 		System.out.print("\nTaban: ");
 		double taban = input.nextDouble();
-      System.out.print("Bir doğal sayı üs giriniz: ");
-      int us = input.nextInt();
+    System.out.print("Bir doğal sayı üs giriniz: ");
+    int us = input.nextInt();
 
-      double carpim = 1;
-      for (int i = 1; i <= us; i++){
-         carpim *= taban;
-      }
+    double carpim = 1;
+    for (int i = 1; i <= us; i++){
+       carpim *= taban;
+    }
       
-      System.out.println("\n" + taban + " sayısının " + us + ". kuvveti: " + carpim);
+    System.out.println("\n" + taban + " sayısının " + us + ". kuvveti: " + carpim);
 	}
 }
