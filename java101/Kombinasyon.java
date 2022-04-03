@@ -9,7 +9,7 @@ public class Kombinasyon {
 
 		System.out.print("\nŞu kadar elemana sahip bir topluluktan: ");
 		int n = input.nextInt();
-        System.out.print("Şu kadar elemanı seçeceğim: ");
+       		System.out.print("Şu kadar elemanı seçeceğim: ");
 		int r = input.nextInt();
 
 		if (r < n && r > 0 && n > 0){
