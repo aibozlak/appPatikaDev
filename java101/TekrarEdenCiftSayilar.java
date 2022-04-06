@@ -17,7 +17,7 @@ public class TekrarEdenCiftSayilar {
       return false;
    }
 
-   // Girilen bir dizide giren bir değerden var mı diye kontrol fonsiyonu:
+   // Girilen bir dizide girilen bir değerden var mı diye kontrol fonsiyonu:
    static boolean suDizideTekrariVar(int[] array, int value){
       for (int eleman : array){
          if(eleman == value){ return true; }
@@ -25,8 +25,7 @@ public class TekrarEdenCiftSayilar {
       return false;
    }
 
-   // Tekrar eden çift sayinin olduğu garantilendikten sonra, 
-   // tekrar eden çift sayiyi/sayilari veren fonksiyon:
+   // Tekrar eden çift sayinin olduğu garantilendikten sonra, bu sayilari/sayiyi çıktı olarak veren fonksiyon:
    static int[] tekrarCiftler(int[] array){  
       int[] tekrarlilar = new int[array.length];
       int indis = 0;
