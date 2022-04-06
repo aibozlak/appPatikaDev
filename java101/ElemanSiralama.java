@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class ElemanSiralama {
 
-   // Girilen bir dizide giren bir değerden var mı diye kontrol fonsiyonu:
+   // Girilen bir dizide girilen bir değerden var mı diye kontrol fonsiyonu:
    static boolean suDizideTekrariVar(int[] array, int value){
       for (int eleman : array){
          if(eleman == value){ return true; }
@@ -16,6 +16,7 @@ public class ElemanSiralama {
       return false;
    }
 
+   // Küçükten büyüğe sıralı dizi çıktısı veren fonksiyon:
    static int[] kucuktenBuyugeSirala(int[] array){
       int[] siralanmisDizi = new int[array.length];
       int iSiralanmisDizi = 0;
@@ -35,7 +36,7 @@ public class ElemanSiralama {
 
 		Scanner input = new Scanner(System.in);	
       int n;
-		do{
+		  do{
          System.out.print("Gireceğiniz eleman sayısı: ");
          n = input.nextInt();
          if (n < 1){ System.out.println("Eleman sayısı 0'dan büyük doğal sayı olamalı!"); }
