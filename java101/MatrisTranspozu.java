@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class MatrisTranspozu {
 
-	static int[][] transpoz(int[][] matris){
+	static int[][] transpoz(int[][] matris){   // <------- Bir matrisin (int tipinde) transpozunu çıktı olarak veren fonksiyon:
       int[][] transpozu = new int[matris[0].length][matris.length];
       for (int i = 0; i < matris.length; i++){
          for (int j = 0; j < matris[0].length; j++){
@@ -18,8 +18,8 @@ public class MatrisTranspozu {
    }
 
 	public static void main(String[] arguments) {
-		Scanner input = new Scanner(System.in);	
-      System.out.print("Transpozunu alacağınız matrisin satır sayısı: ");
+		  Scanner input = new Scanner(System.in);	
+      System.out.print("Transpozunu alacağınız matrisin satır sayısı: "); // **** Kullanıcıdan matrisin boyutlarını alma ******
       int r = input.nextInt();
       System.out.print("Sütun sayısı: ");
       int c = input.nextInt();
@@ -32,7 +32,7 @@ public class MatrisTranspozu {
          }
       }
 
-      System.out.println("Girdiğiz matris: ");
+      System.out.println("Girdiğiz matris: "); // ******* Kullanıcıya girdiği matrisi gösterme ******
       for (int[] row : girdiMatris){
          for (int cell : row){
             System.out.print(cell + "  ");
