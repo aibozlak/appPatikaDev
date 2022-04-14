@@ -4,7 +4,7 @@
 
 -- Ödev 4:
 -- 1) film tablosunda bulunan replacement_cost sütununda bulunan birbirinden farklı değerleri sıralayınız.
-select distinct replacement_cost from sakila.film;  -- -> Listed 21 values.alter
+select distinct replacement_cost from sakila.film;  -- -> Listed 21 values
 
 -- 2) film tablosunda bulunan replacement_cost sütununda birbirinden farklı kaç tane veri vardır?
 select count(distinct replacement_cost) from sakila.film; -- -> result: 21
