@@ -4,8 +4,8 @@
 /* 1) test veritabanınızda employee isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100) olan 
       bir tablo oluşturalım. */
 create table employees (
-	employee_id integer,
-    name varchar(50),
+		employee_id integer primary key,
+    name varchar(50) not null,
     birthday date,
     email varchar(100)
 );
